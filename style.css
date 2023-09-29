@@ -1,0 +1,267 @@
+body{
+    background-color: #ddd;
+}
+
+/* start navigation bar */
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: #b3e5f1; */
+    position: relative;
+    z-index: 1;
+
+}
+
+.container1 > div > a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 8px;
+}
+
+.items1{
+    display: flex;
+    align-items: center;
+}
+
+.login{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 9px;
+    margin-right: 5px;
+}
+
+.login div{
+    font-size: 13px;
+}
+
+.items2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#login-pic{
+    padding-right: 3px;
+    padding-top: 3px;
+}
+
+.items3{
+    margin-top: 10px;
+}
+
+.items3 a {
+    text-decoration: none;
+    color: rgb(88, 87, 87);
+    padding: 5px 8px;
+}
+
+.items3  div a:hover{
+    color: rgba(255, 255, 255, 0.689);
+    border-bottom: 3px solid black;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.slider{
+    position: absolute;
+    top: 0;
+    display: block;
+} 
+
+
+/* end navigation bar */
+
+/* start section box */
+
+h5{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-carousel{
+    margin: 20px auto;
+    width: 80%;
+    direction: ltr;
+    margin-top: 50px;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 31%;
+    left: 1250px;
+    font-size: 40px;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 31%;
+    right: 1250px;
+    font-size: 40px;
+}
+
+.fig-section{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 7px;
+    height: 420px;
+}
+
+.fig-section img{
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    height: 312px;
+}
+
+.fig-section  figcaption div {
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+}
+
+.fig-section  figcaption div del{
+    display: block;
+    color: grey;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.fig-section  figcaption div span{
+    color: green;
+    margin-bottom: 5px;
+}
+
+figcaption a{
+    text-decoration: none;
+    color: black;
+}
+
+.picture-items{
+    display: flex;
+    justify-content: center;
+}
+
+.picture-items a{
+    padding: 5px 15px;
+}
+
+.picture-items a:hover{
+    font-size: 20px;
+    transition: all 0.4s ease-out;
+}
+
+.fig-section h6  a {
+    display: block;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.596);
+    font-size: 15px;
+    margin-top: -80px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;   
+}
+
+.fig-section h6  a:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.4s ease-in;
+}
+
+/*  End section box  */
+
+/* start concection box */
+
+.conection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.conection-items{
+    text-align: center;
+    box-shadow: 10px 7px 10px grey;
+}
+
+.conection-items1{
+    text-align: center;
+    margin-top: 5px;
+    box-shadow: 10px 7px 10px grey;
+}
+
+.conection-items1 a {
+    display: block;
+    text-decoration: none;
+    color: grey;
+}
+
+.conection-items a {
+    display: block;
+    text-decoration: none;
+}
+
+.conection-items a i{
+    color: rgba(9, 105, 9, 0.499);
+    font-size: 25px;
+}
+
+.conection-items a p{
+    color: grey;
+    margin-top: -5px;
+}
+
+/* End concection box */
+
+/* Most sells box */
+
+h6{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.most-sells{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+
+.most-sells img{
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.most-sells-products{
+    background-color: white;
+    text-align: center;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.most-sells-products h4{
+    font-size: 15px;
+    color: darkcyan;
+    padding-top: 10px;
+
+}
+
+.most-sells-products a span{
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    background-color: rgba(128, 128, 128, 0.478); 
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.most-sells-products a span:hover{
+    color: white;
+    transition: all 0.3s ease;
+}
+
+
+
