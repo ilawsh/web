@@ -89,16 +89,16 @@ h5{
 }
 
 .owl-carousel .owl-nav button.owl-next{
-    position: absolute;
+    /* position: absolute;
     top: 31%;
-    left: 1250px;
+    left: 1250px; */
     font-size: 40px;
 }
 
 .owl-carousel .owl-nav button.owl-prev{
-    position: absolute;
+    /* position: absolute;
     top: 31%;
-    right: 1250px;
+    right: 1250px; */
     font-size: 40px;
 }
 
@@ -176,6 +176,7 @@ figcaption a{
 .conection{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 50px;
 }
