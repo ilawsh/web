@@ -71,6 +71,11 @@ body{
     display: block;
 } 
 
+.slider:hover{
+    transform: skew(8deg , 8deg);
+    transition: all 5s;
+}
+
 
 /* end navigation bar */
 
@@ -267,6 +272,11 @@ h6{
 .most-sells-products a span:hover{
     color: white;
     transition: all 0.3s ease;
+}
+
+.most-sells img:hover{
+    transition: all 3s;
+    transform: scalex( 0.7);
 }
 
 
