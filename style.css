@@ -71,12 +71,6 @@ body{
     display: block;
 } 
 
-.slider:hover{
-    transform: skew(8deg , 8deg);
-    transition: all 5s;
-}
-
-
 /* end navigation bar */
 
 /* start section box */
