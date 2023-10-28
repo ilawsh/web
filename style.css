@@ -71,6 +71,7 @@ body{
     display: block;
 } 
 
+
 /* end navigation bar */
 
 /* start section box */
@@ -87,7 +88,7 @@ h5{
     margin-top: 50px;
 }
 
-/* .owl-carousel .owl-nav button.owl-next{
+.owl-carousel .owl-nav button.owl-next{
     position: absolute;
     top: 31%;
     left: 1250px;
@@ -99,7 +100,7 @@ h5{
     top: 31%;
     right: 1250px;
     font-size: 40px;
-}  */
+}
 
 .fig-section{
     display: flex;
@@ -168,54 +169,10 @@ figcaption a{
     transition: all 0.4s ease-in;
 }
 
-.fig-section a img:hover{
-    transition: all 3s;
-    transform: scalex( 0.7);
-}
-
 /*  End section box  */
 
 /* start concection box */
 
-.conection{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.conection-items{
-    text-align: center;
-    box-shadow: 10px 7px 10px grey;
-}
-
-.conection-items1{
-    text-align: center;
-    margin-top: 5px;
-    box-shadow: 10px 7px 10px grey;
-}
-
-.conection-items1 a {
-    display: block;
-    text-decoration: none;
-    color: grey;
-}
-
-.conection-items a {
-    display: block;
-    text-decoration: none;
-}
-
-.conection-items a i{
-    color: rgba(9, 105, 9, 0.499);
-    font-size: 25px;
-}
-
-.conection-items a p{
-    color: grey;
-    margin-top: -5px;
-}
 
 /* End concection box */
 
@@ -266,11 +223,6 @@ h6{
 .most-sells-products a span:hover{
     color: white;
     transition: all 0.3s ease;
-}
-
-.most-sells img:hover{
-    transition: all 3s;
-    transform: scalex( 0.7);
 }
 
 

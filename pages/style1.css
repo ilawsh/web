@@ -1,0 +1,65 @@
+body{
+    background-color: #eee;
+}
+
+.item{
+    display: flex;
+    background-color: white;
+}
+
+.item img{
+    width: 300px;
+}
+
+.captions{
+    background-color: white;
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.captions h5{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.captions ul{
+    list-style: none;
+}
+
+.captions ul li{
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+
+@media screen and (max-width:580px) {
+
+    body{
+        background-color: #eee;
+    }
+    
+    .item{
+        display:block;
+        background-color: white;
+        text-align: center;
+    }
+
+    .captions{
+        margin-top: -30px;
+        text-align: center;
+    }
+
+    .captions h5{
+        margin-right: 0px;
+    }
+
+    
+
+
+}
+
+
