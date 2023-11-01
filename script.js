@@ -6,7 +6,7 @@ $('.owl-carousel').owlCarousel({
         0:{
             items:2
         },
-        600:{
+        650:{
             items:4
         },
         1000:{
